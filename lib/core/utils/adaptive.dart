@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class AdaptiveActivityIndicator extends StatelessWidget {
   const AdaptiveActivityIndicator({
@@ -148,15 +149,15 @@ Future<T> showAdaptiveSimpleDialog<T>({
         );
 }
 
-Future showAlertDialog(String title, String message, BuildContext context,
+Future showAlertDialog(String title, String message,
     {bool barrierDismissible = true, Function onOk, String buttonTitle}) async {
-  if (context == null) {
+  if (Get.context == null) {
     return;
   }
 
   try {
     await showAdaptiveDialog(
-      context: context,
+      context: Get.context,
       barrierDismissible: barrierDismissible,
       builder: (context) {
         return AdaptiveAlertDialog(

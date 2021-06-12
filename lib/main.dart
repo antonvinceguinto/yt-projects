@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yt_framework/home_page.dart';
+import 'package:get/get.dart';
+import 'package:yt_framework/homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,7 +9,8 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      title: 'Pokedex',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
