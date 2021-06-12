@@ -1,6 +1,6 @@
-# yt_framework
+# Hello Welcome to my youtube repository!
 
-A Flutter project template for my youtube videos.
+A Flutter project template for my youtube videos. You can check my videos out on: https://www.youtube.com/channel/UC2DwpxK_oacW01OM17mJnwg
 
 ## Getting Started
 
