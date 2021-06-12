@@ -1,10 +1,12 @@
-# Hello Welcome to my youtube repository!
+# Hello Welcome to my youtube project repository!
 
-A Flutter project template for my youtube videos. You can check my videos out on: https://www.youtube.com/channel/UC2DwpxK_oacW01OM17mJnwg
+A Flutter project template for my youtube videos. 
 
-## Getting Started
+You can check my videos out on: https://www.youtube.com/channel/UC2DwpxK_oacW01OM17mJnwg
 
-This project is a starting point for a Flutter application.
+Go checkout some branches for different projects!
+
+## Flutter Getting Started
 
 A few resources to get you started if this is your first Flutter project:
 
